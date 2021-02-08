@@ -1,1 +1,62 @@
 @import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap");
+
+body {
+  margin: 0 auto;
+  width: calc(100% - 100px);
+  font-family: "Mulish", sans-serif;
+  background: url("../img/background.jpg");
+}
+
+.header {
+  height: 150px;
+  font-size: 35px;
+  color: #fff;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__options {
+    display: block;
+    float: right;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.main {
+  &__name {
+    display: flex;
+
+    div {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 50px;
+      background-color: #fff;
+
+      &:first-child {
+        border-top-left-radius: 25px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 25px;
+      }
+    }
+  }
+
+  &__time {
+    display: flex;
+    background-color: #fff;
+
+    div {
+      border: 1px solid #000;
+      width: 100%;
+      height: 70px;
+    }
+  }
+}

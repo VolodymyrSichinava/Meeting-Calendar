@@ -1,0 +1,8 @@
+DATABASE NAME       : Intership-test-task
+COLLECTION NAME     : Meeting-data 
+
+User:
+Password Authentication : test1 test1
+
+Add a connection IP address:
+195.88.72.211

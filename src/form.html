@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header class="form-header">
+    Create event
+  </header>
+  <main class="form-main">
+    <form>
+      <div class="event-wrapper">
+        <label for="event">Name of the event:</label>
+        <input type="text" id="event" name="event" autocomplete="off">
+      </div>
+
+      <fieldset class="part-wrapper">
+        <legend>Participants</legend>
+        <input type="checkbox" name="Maria" id="maria" value="Maria">
+        <label for="maria">Maria<span>&#128504;</span></label>
+        <input type="checkbox" name="Bob" id="bob" value="Bob">
+        <label for="bob">Bob<span>&#128504;</span></label>
+        <input type="checkbox" name="Vova" id="vova" value="Vova">
+        <label for="vova">Vova<span>&#128504;</span></label>
+        <input type="checkbox" name="Julia" id="julia" value="Julia">
+        <label for="julia">Julia<span>&#128504;</span></label>
+      </fieldset>
+
+      <div class="day-wrapper">
+        <label for="day">Day:</label>
+        <select>
+          <option>Monday</option>
+          <option>Tuesday</option>
+          <option>Wednesday</option>
+          <option>Thursday</option>
+          <option>Friday</option>
+        </select>
+      </div>
+
+      <div class="time-wrapper">
+        <label for="time">Time:</label>
+        <select>
+          <option>10:00</option>
+          <option>11:00</option>
+          <option>12:00</option>
+          <option>13:00</option>
+          <option>14:00</option>
+          <option>15:00</option>
+          <option>16:00</option>
+          <option>17:00</option>
+          <option>18:00</option>
+        </select>
+      </div>
+      <!-- <select name="participants" id="participants" multiple>
+        <option value="Maria">Maria</option>
+        <option value="Bob">Bob</option>
+        <option value="Vova">Vova</option>
+        <option value="Julia">Julia</option>
+      </select> -->
+		</form>
+  </main>
+</body>
+</html>
